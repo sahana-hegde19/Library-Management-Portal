@@ -1,0 +1,178 @@
+#adminVectorDiv {
+  margin-left: -60px;
+  margin-right: -42px;
+  margin-top: -43px;
+  margin-bottom: -43px;
+}
+#admindiv {
+  background-image: url("../images/cover3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.adminFullDiv {
+  overflow: hidden;
+  font-family: Lobster Two;
+  color: aliceblue;
+}
+#adminHeading {
+  margin-top: 20px;
+  background: linear-gradient(to right, #fc466b, #3f5efb);
+  padding: 20px;
+  border-radius: 100%;
+  box-shadow: -14px 10px 7px 0px black;
+}
+#adminHeading:hover {
+  background: linear-gradient(to right, #11998e, #38ef7d);
+  box-shadow: none;
+  transition: 0.5s;
+}
+.adminForm {
+  margin-top: 20px;
+  background-color: #474b5c;
+  border-radius: 25px;
+  box-shadow: -14px 10px 7px 0px black;
+  overflow: hidden;
+}
+.adminForm:hover {
+  box-shadow: none;
+  transition: 0.5;
+}
+input {
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 1.33rem;
+  outline: none;
+  border: none;
+  height: 2.12rem;
+  font-family: Cambria Math;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #2a2a72;
+}
+
+.myBtn {
+  background: linear-gradient(to right, #fc466b, #3f5efb);
+  border: none !important;
+  outline: none !important;
+  width: auto;
+  height: auto;
+  border-radius: 2.5rem;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: aliceblue;
+}
+.myBtn:hover {
+  transform: scaleX(1.2);
+  background: linear-gradient(to right, #11998e, #38ef7d);
+}
+#submitbtn {
+  height: auto;
+  width: auto;
+  margin-left: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: -14px 10px 7px 0px black;
+}
+.socialButtons {
+  border: none !important;
+  outline: none !important;
+  width: 12.5rem;
+  font-size: 15px;
+  height: 3.44rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 2.5rem;
+  color: aliceblue;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  box-shadow: -10px 15px 8px 2px rgba(0, 0, 0, 0.75);
+}
+.socialButtons:hover {
+  box-shadow: none;
+  width: 13.8rem;
+  transition: 0.2s;
+}
+.taskdiv {
+  margin-left: 25px;
+  margin-top: 12px !important;
+  margin-bottom: 20px !important;
+  justify-content: center;
+  height: 120px;
+  width: 85%;
+  color: aliceblue;
+  font-family: Lobster Two;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 16px;
+  font-style: italic;
+  background: linear-gradient(to right, #bc4e9c, #f80759);
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: -14px 10px 7px 0px black;
+}
+
+.taskdiv:hover {
+  cursor: pointer;
+  font-style: normal;
+  background: linear-gradient(to right, #c31432, #240b36);
+  box-shadow: none;
+  transition: 0.5s;
+}
+.admintext {
+  font-family: Lobster Two;
+  font-style: italic;
+  font-size: 35px;
+  color: #1ba94c;
+  text-align: center;
+  margin-top: 250px;
+  letter-spacing: 2px;
+}
+.newbookdiv {
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  margin-top: 200px;
+  border-radius: 12px;
+  margin-right: 15px;
+  max-width: 100%;
+  box-shadow: -14px 10px 7px 0px black;
+}
+.newbookdiv:hover {
+  box-shadow: none;
+  transition: 0.5s;
+}
+.adminbutton {
+  font-family: Lobster Two;
+  margin-bottom: 10px;
+  box-shadow: -14px 10px 7px 0px black;
+}
+.adminbutton:hover {
+  box-shadow: none;
+  transition: 0.5s;
+}
+#addbtn {
+  height: auto;
+  width: auto;
+  margin-top: 20px;
+  margin-right: 2rem;
+}
+#removebtn {
+  height: auto;
+  width: auto;
+  margin-top: 20px;
+}
+#updatebtn {
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+}
+#sendbtn {
+  width: 12rem;
+  margin-top: 20px;
+  margin-right: 2rem;
+  height: auto;
+}
+.mytextarea {
+  width: 75%;
+  resize: none;
+}
